@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let qntcigarros = parseInt(prompt("Olá, hoje vou calcular quantos tempo de vida foi perdido de acordo com quantos cigarros ja foram fumados. Quantos cigarros você fuma por dia?"))
+        let tempofumado = parseFloat(prompt("Agora digite quanto tempo de fumo você tem(em meses)."))
+        let diasfumados = tempofumado*30;
+        let cigarrosfumados = diasfumados*qntcigarros;
+        let tempoperdido = cigarrosfumados*10; //em minutos // ; /6=horas ; horas/24=dias
+        let diasperdidos = tempoperdido/1440;
+        alert("Você perdeu aproximadamente " + diasperdidos + " dias de vida.")
+    </script>
+</body>
+</html>

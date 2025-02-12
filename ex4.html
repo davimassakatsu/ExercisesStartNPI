@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = parseFloat(prompt("Olá, vou resolver sua equação de 2º grau. Comece digitando o valor junto ao X² (A)."));
+        let b = parseFloat(prompt("Agora digite o valor junto ao X (B)."));
+        let c = parseFloat(prompt("Para finalizar, digite o valor do número sozinho (C)."));
+        let delta = (b*b) - 4*a*c;
+        let X1 = -b + Math.sqrt(delta) / 2*a;
+        let X2 = -b - Math.sqrt(delta) / 2*a;
+        alert("O valor de delta é " + delta + "." + " O valor de X1 é: " + X1 + "." + " E o valor de X2 é: " + X2 + ".");
+        //
+    </script>
+</body>
+</html>
